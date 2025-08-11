@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package profile.v1;
 
-option go_package = "proto/gen/profile/v1;profilev1";
+option go_package = "proto-contracts/gen/profile;profile";
 
 service ProfileService {
   rpc GetProfile(GetProfileRequest) returns (GetProfileResponse);
